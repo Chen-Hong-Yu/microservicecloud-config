@@ -1,0 +1,17 @@
+spring:
+ profiles:
+  active:
+  - dev
+---
+
+spring:
+ profiles:dev  #开发环境
+ application:
+  name: microservicecloud-config-chy-dev
+---  
+
+spring:
+ profiles:test  #测试环境
+ application：
+  name: microservicecloud-config-chy-test
+#请保持为 UTF-8 格式  
